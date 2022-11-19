@@ -25,8 +25,20 @@ public class Tests {
         Assert.assertEquals(5,Calculator.operation(25,5,'%'),0);
     }
     @Test
-    public void WrongResultTest(){
-        Assert.assertEquals(5,Calculator.operation(26,5,'%'),0);
+    public void WrongPlusTest(){
+        Assert.assertEquals(54,Calculator.operation(3,2,'+'),0);
+    }
+    @Test
+    public void WrongMinusTest(){
+        Assert.assertEquals(1,Calculator.operation(2,3,'-'),0);
+    }
+    @Test
+    public void WrongMultiplicationTest(){
+        Assert.assertEquals(15,Calculator.operation(15,10,'*'),0);
+    }
+    @Test
+    public void WrongDivisionTest(){
+        Assert.assertEquals(15,Calculator.operation(25,5,'/'),0);
     }
 
     @Test
@@ -49,6 +61,6 @@ public class Tests {
     public void ClassesTest(){
         Calculator calc=new Calculator();
         Triangle tr=new Triangle();
-        
+
     }
 }
