@@ -20,21 +20,21 @@ public class CalculatorTest {
     public void DivisionTest(){
         Assert.assertEquals(5,Calculator.operation(25,5,'/'),0);
     }
-    @Test
-    public void WrongOperationTest(){
-        Assert.assertEquals(5,Calculator.operation(25,5,'%'),0);
-    }
-    @Test
-    public void WrongResultTest(){
-        Assert.assertEquals(5,Calculator.operation(26,5,'%'),0);
-    }
+//    @Test
+//    public void WrongOperationTest(){
+//        Assert.assertEquals(5,Calculator.operation(25,5,'%'),0);
+//    }
+//    @Test
+//    public void WrongResultTest(){
+//        Assert.assertEquals(5,Calculator.operation(26,5,'%'),0);
+//    }
 
     @Test
     public void RightSidesTest(){
         Assert.assertTrue(Triangle.checkTriangle(15,10,6));
     }
-    @Test
-    public void WrongSidesTest(){
-        Assert.assertTrue(Triangle.checkTriangle(15,10,3));
-    }
+//    @Test
+//    public void WrongSidesTest(){
+//        Assert.assertTrue(Triangle.checkTriangle(15,10,3));
+//    }
 }
