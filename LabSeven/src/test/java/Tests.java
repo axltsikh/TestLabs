@@ -34,7 +34,15 @@ public class Tests {
         Assert.assertTrue(Triangle.checkTriangle(15,10,6));
     }
     @Test
-    public void WrongSidesTest(){
+    public void WrongThirdSideTest(){
         Assert.assertTrue(Triangle.checkTriangle(15,10,3));
+    }
+    @Test
+    public void WrongSecondSideTest(){
+        Assert.assertTrue(Triangle.checkTriangle(15,3,10));
+    }
+    @Test
+    public void WrongFirstSideTest(){
+        Assert.assertTrue(Triangle.checkTriangle(3,10,15));
     }
 }
