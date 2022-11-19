@@ -45,4 +45,10 @@ public class Tests {
     public void WrongFirstSideTest(){
         Assert.assertTrue(Triangle.checkTriangle(3,10,15));
     }
+    @Test
+    public void ClassesTest(){
+        Calculator calc=new Calculator();
+        Triangle tr=new Triangle();
+        
+    }
 }
