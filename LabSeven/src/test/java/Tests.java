@@ -9,6 +9,10 @@ public class Tests {
         Assert.assertEquals(5,Calculator.operation(3,2,'+'),0);
     }
     @Test
+    public void PlusSecondTest(){
+        Assert.assertEquals(-12,Calculator.operation(-5,-7,'+'),0);
+    }
+    @Test
     public void MinusTest(){
         Assert.assertEquals(-1,Calculator.operation(2,3,'-'),0);
     }
