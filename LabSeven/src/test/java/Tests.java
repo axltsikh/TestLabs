@@ -25,6 +25,9 @@ public class Tests {
         Assert.assertEquals(5,Calculator.operation(25,5,'/'),0);
     }
     @Test
+    public void DivisionByZeroTest(){
+        Assert.assertEquals(5,Calculator.operation(25,0,'/'),0);}
+    @Test
     public void WrongOperationTest(){
         Assert.assertEquals(5,Calculator.operation(25,5,'%'),0);
     }
@@ -36,38 +39,12 @@ public class Tests {
     public void WrongOperationThirdTest(){
         Assert.assertEquals(5,Calculator.operation(25,5,'!'),0);
     }
-    @Test
-    public void WrongPlusTest(){
-        Assert.assertEquals(54,Calculator.operation(3,2,'+'),0);
-    }
-    @Test
-    public void WrongMinusTest(){
-        Assert.assertEquals(1,Calculator.operation(2,3,'-'),0);
-    }
-    @Test
-    public void WrongMultiplicationTest(){
-        Assert.assertEquals(15,Calculator.operation(15,10,'*'),0);
-    }
-    @Test
-    public void WrongDivisionTest(){
-        Assert.assertEquals(15,Calculator.operation(25,5,'/'),0);
-    }
+
     @Test
     public void RightSidesTest(){
         Assert.assertTrue(Triangle.checkTriangle(15,10,6));
     }
-//    @Test
-//    public void WrongThirdSideTest(){
-//        Assert.assertTrue(Triangle.checkTriangle(15,10,3));
-//    }
-//    @Test
-//    public void WrongSecondSideTest(){
-//        Assert.assertTrue(Triangle.checkTriangle(15,3,10));
-//    }
-//    @Test
-//    public void WrongFirstSideTest(){
-//        Assert.assertTrue(Triangle.checkTriangle(3,10,15));
-//    }
+
     @Test
     public void ClassesTest(){
         Calculator calc=new Calculator();
