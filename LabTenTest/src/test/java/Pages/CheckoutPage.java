@@ -12,15 +12,14 @@ import java.time.Duration;
 
 public class CheckoutPage {
     WebDriver driver;
-    @FindBy(xpath = "//*[@id=\"order_review\"]/table/tbody/tr/td[2]/a")
+    @FindBy(xpath = "/html/body/div[3]/main/div[2]/div/div[2]/form/div/div/div[3]/div[1]/table/tbody/tr/td[2]/h4/a")
     WebElement removeItemButton;
     public CheckoutPage(WebDriver driver){
         this.driver=driver;
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30),this);
     }
-    public AfterRemovePage removeItem() throws InterruptedException {
-        Thread.sleep(2000);
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(removeItemButton)).click();
-        return new AfterRemovePage(driver);
+    public String getShoeName(){
+        return removeItemButton.getText().toString();
     }
+
 }

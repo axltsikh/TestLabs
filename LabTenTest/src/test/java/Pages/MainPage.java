@@ -10,11 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class MainPage {
-    String mainPage="https://nbalance.by/";
+    String mainPage="https://mizuno.com.ru/";
 
     WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"menu-item-7172\"]/a")
+    @FindBy(xpath = "//*[@id=\"catalog_menu\"]/div/div/div/nav/div/ul/li[2]")
     WebElement menButton;
 
     public MainPage(WebDriver driver){
@@ -26,8 +26,8 @@ public class MainPage {
         driver.get(mainPage);
         return this;
     }
-    public ShoesPage GoToMenPage(){
+    public RunPage GoToRunPage(){
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(menButton)).click();
-        return new ShoesPage(driver);
+        return new RunPage(driver);
     }
 }
