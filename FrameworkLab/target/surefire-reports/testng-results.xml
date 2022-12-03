@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T13:22:32 MSK" name="Command line suite" finished-at="2022-12-02T13:24:07 MSK" duration-ms="94956">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T13:22:32 MSK" name="Command line test" finished-at="2022-12-02T13:24:07 MSK" duration-ms="94956">
+      <class name="test.IncreaseQuantityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.IncreaseQuantityTest@2aece37d]" started-at="2022-12-02T13:23:20 MSK" name="setUp" finished-at="2022-12-02T13:23:21 MSK" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfAddedTest()[pri:0, instance:test.IncreaseQuantityTest@2aece37d]" started-at="2022-12-02T13:23:21 MSK" name="CheckIfAddedTest" finished-at="2022-12-02T13:23:30 MSK" duration-ms="8565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfAddedTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.IncreaseQuantityTest@2aece37d]" started-at="2022-12-02T13:23:30 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:30 MSK" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.IncreaseQuantityTest -->
+      <class name="test.CheckQuantityCorrectionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckQuantityCorrectionTest@14a2f921]" started-at="2022-12-02T13:23:00 MSK" name="setUp" finished-at="2022-12-02T13:23:01 MSK" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfAddedTest()[pri:0, instance:test.CheckQuantityCorrectionTest@14a2f921]" started-at="2022-12-02T13:23:01 MSK" name="CheckIfAddedTest" finished-at="2022-12-02T13:23:12 MSK" duration-ms="10423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfAddedTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.CheckQuantityCorrectionTest@14a2f921]" started-at="2022-12-02T13:23:12 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:12 MSK" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.CheckQuantityCorrectionTest -->
+      <class name="test.RemoveFromBagTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RemoveFromBagTest@17c386de]" started-at="2022-12-02T13:23:50 MSK" name="setUp" finished-at="2022-12-02T13:23:51 MSK" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfRemoveTest()[pri:0, instance:test.RemoveFromBagTest@17c386de]" started-at="2022-12-02T13:23:51 MSK" name="CheckIfRemoveTest" finished-at="2022-12-02T13:24:00 MSK" duration-ms="9033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfRemoveTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.RemoveFromBagTest@17c386de]" started-at="2022-12-02T13:24:00 MSK" name="stopBrowser" finished-at="2022-12-02T13:24:00 MSK" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.RemoveFromBagTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@548a102f]" started-at="2022-12-02T13:23:30 MSK" name="setUp" finished-at="2022-12-02T13:23:31 MSK" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfAddedTest()[pri:0, instance:test.LoginTest@548a102f]" started-at="2022-12-02T13:23:31 MSK" name="CheckIfAddedTest" finished-at="2022-12-02T13:23:37 MSK" duration-ms="5801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfAddedTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.LoginTest@548a102f]" started-at="2022-12-02T13:23:37 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:37 MSK" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.FilterTest@3c87521]" started-at="2022-12-02T13:23:12 MSK" name="setUp" finished-at="2022-12-02T13:23:14 MSK" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfAddedTest()[pri:0, instance:test.FilterTest@3c87521]" started-at="2022-12-02T13:23:14 MSK" name="CheckIfAddedTest" finished-at="2022-12-02T13:23:19 MSK" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfAddedTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.FilterTest@3c87521]" started-at="2022-12-02T13:23:19 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:20 MSK" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.FilterTest -->
+      <class name="test.addToBagTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.addToBagTest@15bb6bea]" started-at="2022-12-02T13:22:32 MSK" name="setUp" finished-at="2022-12-02T13:22:35 MSK" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfAddedTest()[pri:0, instance:test.addToBagTest@15bb6bea]" started-at="2022-12-02T13:22:35 MSK" name="CheckIfAddedTest" finished-at="2022-12-02T13:22:45 MSK" duration-ms="9098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfAddedTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.addToBagTest@15bb6bea]" started-at="2022-12-02T13:22:45 MSK" name="stopBrowser" finished-at="2022-12-02T13:22:45 MSK" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.addToBagTest -->
+      <class name="test.CheckoutFinalPriceCompareTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutFinalPriceCompareTest@212bf671]" started-at="2022-12-02T13:22:45 MSK" name="setUp" finished-at="2022-12-02T13:22:46 MSK" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfCheckoutPriceIsRight()[pri:0, instance:test.CheckoutFinalPriceCompareTest@212bf671]" started-at="2022-12-02T13:22:46 MSK" name="CheckIfCheckoutPriceIsRight" finished-at="2022-12-02T13:23:00 MSK" duration-ms="13396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfCheckoutPriceIsRight -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.CheckoutFinalPriceCompareTest@212bf671]" started-at="2022-12-02T13:23:00 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:00 MSK" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.CheckoutFinalPriceCompareTest -->
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SearchTest@5af97850]" started-at="2022-12-02T13:24:00 MSK" name="setUp" finished-at="2022-12-02T13:24:01 MSK" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchTest()[pri:0, instance:test.SearchTest@5af97850]" started-at="2022-12-02T13:24:01 MSK" name="SearchTest" finished-at="2022-12-02T13:24:07 MSK" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SearchTest@5af97850]" started-at="2022-12-02T13:24:07 MSK" name="stopBrowser" finished-at="2022-12-02T13:24:07 MSK" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SearchTest -->
+      <class name="test.PostPoneTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PostPoneTest@5762806e]" started-at="2022-12-02T13:23:37 MSK" name="setUp" finished-at="2022-12-02T13:23:39 MSK" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckIfPostPoneWorksTest()[pri:0, instance:test.PostPoneTest@5762806e]" started-at="2022-12-02T13:23:39 MSK" name="CheckIfPostPoneWorksTest" finished-at="2022-12-02T13:23:49 MSK" duration-ms="10417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfPostPoneWorksTest -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.PostPoneTest@5762806e]" started-at="2022-12-02T13:23:49 MSK" name="stopBrowser" finished-at="2022-12-02T13:23:50 MSK" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.PostPoneTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

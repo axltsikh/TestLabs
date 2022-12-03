@@ -10,12 +10,12 @@ public class MyTest {
     @BeforeMethod
     public void doAllTheJob() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        MainPage page = new MainPage(driver);
-        page.OpenPage();
-        RunPage all=page.GoToRunPage();
-        ShoeItem shoeItem=all.openShoePage();
-        CheckoutPage afterRemovePage = shoeItem.addtoBag();
-        checkCart=afterRemovePage.getShoeName();
+        checkCart = new MainPage(driver).OpenPage().GoToRunPage().openShoePage().addtoBag().getShoeName();
+//        page.OpenPage();
+//        RunPage all=page.GoToRunPage();
+//        ShoeItem shoeItem=all.openShoePage();
+//        CheckoutPage afterRemovePage = shoeItem.addtoBag();
+//        checkCart=afterRemovePage.getShoeName();
     }
     @Test
     private void MyTest(){
