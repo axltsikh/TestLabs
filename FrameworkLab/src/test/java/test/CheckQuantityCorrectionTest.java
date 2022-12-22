@@ -2,12 +2,12 @@ package test;
 
 import Page.MainPage;
 import Util.IntUtils;
-import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class CheckQuantityCorrectionTest extends CommonConditions{
     @Test
-    private void CheckIfAddedTest() throws InterruptedException {
+    private void CheckQuantityTest() throws InterruptedException {
         String itemQuantity = new MainPage(driver)
                 .openPage()
                 .openRunPage()
@@ -15,6 +15,6 @@ public class CheckQuantityCorrectionTest extends CommonConditions{
                 .addtoBag()
                 .increaseQuantitySeveralTimes(IntUtils.getRandomInt())
                 .getItemQuantity();
-        Assert.assertEquals(itemQuantity,"2");
+        assertThat(itemQuantity).isEqualTo("2");
     }
 }

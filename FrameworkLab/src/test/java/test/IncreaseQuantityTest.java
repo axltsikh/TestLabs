@@ -3,10 +3,10 @@ package test;
 import Page.MainPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import static org.assertj.core.api.Assertions.*;
 public class IncreaseQuantityTest extends CommonConditions {
     @Test
-    private void CheckIfAddedTest(){
+    private void CheckQunatityTest(){
         String quantity = new MainPage(driver)
                 .openPage()
                 .openRunPage()
@@ -14,6 +14,6 @@ public class IncreaseQuantityTest extends CommonConditions {
                 .addtoBag()
                 .increaseQuantity()
                 .getItemQuantity();
-        Assert.assertEquals(quantity,"2");
+        assertThat(quantity).isEqualTo("2");
     }
 }

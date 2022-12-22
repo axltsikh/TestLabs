@@ -5,6 +5,7 @@ import Page.MainPage;
 import Service.ItemCreator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class PostPoneTest extends CommonConditions{
     @Test
@@ -18,6 +19,6 @@ public class PostPoneTest extends CommonConditions{
                 .postponeButtonClick()
                 .moveToPostponeButtonClick()
                 .isPostponed();
-        Assert.assertEquals(isPostponed,item.ItemName);
+        assertThat(isPostponed).isEqualTo(item.ItemName);
     }
 }

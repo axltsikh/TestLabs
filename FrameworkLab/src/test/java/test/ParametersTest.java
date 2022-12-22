@@ -5,10 +5,11 @@ import Page.MainPage;
 import Service.ItemCreator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class ParametersTest extends CommonConditions {
     @Test
-    private void SearchTest(){
+    private void CheckParametersTest(){
         Item item= ItemCreator.createXLShorts();
         String itemSize = new MainPage(driver)
                 .openPage()
@@ -17,6 +18,6 @@ public class ParametersTest extends CommonConditions {
                 .chooseSize()
                 .addtoBag()
                 .getProductSize();
-        Assert.assertEquals(itemSize,"Размер одежды: " + item.Size);
+        assertThat(itemSize).isEqualTo("Размер одежды: " + item.Size);
     }
 }

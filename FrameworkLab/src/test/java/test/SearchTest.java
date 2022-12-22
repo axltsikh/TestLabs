@@ -5,6 +5,7 @@ import Page.MainPage;
 import Service.ItemCreator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class SearchTest extends CommonConditions{
     @Test
@@ -15,6 +16,6 @@ public class SearchTest extends CommonConditions{
                 .inputSearch(item.ItemName)
                 .startSearch()
                 .getSingleItemName();
-        Assert.assertEquals(itemName,item.ItemName);
+        assertThat(itemName).isEqualTo(item.ItemName);
     }
 }

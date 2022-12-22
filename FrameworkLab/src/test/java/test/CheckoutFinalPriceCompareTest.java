@@ -1,8 +1,8 @@
 package test;
 
 import Page.MainPage;
-import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class CheckoutFinalPriceCompareTest extends CommonConditions {
     @Test
@@ -15,6 +15,6 @@ public class CheckoutFinalPriceCompareTest extends CommonConditions {
                 .increaseQuantity()
                 .moveToCheckoutPage()
                 .getAllProductsPrice();
-        Assert.assertEquals(shoeName,"15 500 руб.");
+        assertThat(shoeName).isEqualTo("15 500 руб.");
     }
 }
